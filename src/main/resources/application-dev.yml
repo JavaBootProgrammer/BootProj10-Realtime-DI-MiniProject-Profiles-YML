@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    dbcp2:
+      max-total: 10
+      min-idle: 10
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    type: org.apache.commons.dbcp2.BasicDataSource
+    url: jdbc:mysql:///NTSPBMS911DB
+    username: root
