@@ -41,7 +41,7 @@ public class BootProj10RealtimeProfilesApplication_YML {
 		}
 		catch(Exception e) {
 			e.printStackTrace();
-			System.out.println("PRoblem is code ::"+e.getMessage());
+			System.out.println("Problem is code ::"+e.getMessage());
 		}
 		
 		//close the IOC container
