@@ -1,12 +1,12 @@
-package com.nt.service;
+package com.data.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.nt.dao.IEmployeeDAO;
-import com.nt.model.Employee;
+import com.data.dao.IEmployeeDAO;
+import com.data.model.Employee;
 
 @Service("empService")
 public class EmployeeMgmtServiceImpl implements IEmployeeMgmtService {

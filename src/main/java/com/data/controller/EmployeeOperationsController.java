@@ -1,12 +1,12 @@
-package com.nt.controller;
+package com.data.controller;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import com.nt.model.Employee;
-import com.nt.service.IEmployeeMgmtService;
+import com.data.model.Employee;
+import com.data.service.IEmployeeMgmtService;
 
 @Controller("empController")
 public class EmployeeOperationsController {

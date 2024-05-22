@@ -1,4 +1,4 @@
-package com.nt.model;
+package com.data.model;
 
 import lombok.Data;
 
